@@ -1,0 +1,43 @@
+<div class="d-flex justify-content-center">
+  <mat-card>
+    <mat-card-header>Sign Up</mat-card-header>
+    <mat-card-subtitle>&nbsp;</mat-card-subtitle>
+    <mat-card-content>
+      <form *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="signUp()" class="d-flex flex-column sign-up-form">
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Email</mat-label>
+          <input formControlName="email" id="email" matInput type="text">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Username</mat-label>
+          <input formControlName="username" id="username" matInput type="text">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Display Name</mat-label>
+          <input formControlName="displayName" id="displayName" matInput type="text">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Password</mat-label>
+          <input formControlName="password" id="password" matInput type="password">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="form-field">
+          <mat-label>Confirm password</mat-label>
+          <input formControlName="passwordConfirmation" id="passwordConfirmation" matInput
+                 type="password">
+        </mat-form-field>
+
+        <button [disabled]="formGroup.invalid" class="sign-up-button" color="primary" type="submit" mat-raised-button>Sign Up</button>
+      </form>
+    </mat-card-content>
+
+    <mat-card-actions >
+      <span class="text-center w-100">
+        Already have an account? <a [routerLink]="DirectRoute[DirectRouteKey.SignIn]">Log in!</a>
+      </span>
+    </mat-card-actions>
+  </mat-card>
+</div>

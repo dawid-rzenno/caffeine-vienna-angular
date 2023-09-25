@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.content__router-outlet {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,37 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e15dea1-f171-4bff-9c33-1e76936c3e2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/caffeine-sso.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+    <list default="true" id="5e15dea1-f171-4bff-9c33-1e76936c3e2e" name="Changes" comment="Implement auth core module">
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-in/sign-in.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-in/sign-in.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-in/sign-in.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-out/sign-out.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-out/sign-out.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-out/sign-out.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-up/common/control-value-matches.function.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-up/sign-up.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-up/sign-up.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-up/sign-up.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/auth/sign-up/sign-up.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/common/constants/auth-direct-route.const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/features/common/constants/path-segment.enum.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../caffeine-mocha/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../caffeine-mocha/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caffeine-sso.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caffeine-sso.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dawid-rzenno"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="811970d5-ffec-4848-bddb-2a62106a93f2" />
+        <option name="url" value="https://github.com/dawid-rzenno/caffeine-sso.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +74,7 @@
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="2VsppJLMsKH2s4GjSxrrExEzFUP" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -55,15 +89,37 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/caffeine-sso",
+    "last_opened_file_path": "E:/caffeine-mocha-server",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\caffeine-sso\src\app\core" />
+      <recent name="E:\caffeine-sso\src\core" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\caffeine-sso\src\app\features" />
+      <recent name="E:\caffeine-sso\src\app" />
       <recent name="E:\caffeine-sso" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="wsl://Ubuntu-22.04@/home/grafitt/.nvm/versions/node/v18.17.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,8 +129,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695634823666</updated>
-      <workItem from="1695634824694" duration="250000" />
+      <workItem from="1695634824694" duration="3108000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1695635129714</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695635129714</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Implement auth core module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement auth core module" />
   </component>
 </project>

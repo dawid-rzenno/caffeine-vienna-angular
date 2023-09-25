@@ -1,0 +1,15 @@
+<div class="flex-container w-100 p-2">
+  <div class="row">
+    <a class="col-1 text-center" [routerLink]=""><i>Profile</i></a>
+    <a class="col"></a>
+    <a class="col-1 text-center" [routerLink]="AuthDirectRoute[AuthDirectRouteKey.SignUp]"><i>Sign up</i></a>
+    <a class="col-1 text-center" [routerLink]="AuthDirectRoute[AuthDirectRouteKey.SignIn]"><i>Sign in</i></a>
+    <a class="col-1 text-center" [routerLink]="AuthDirectRoute[AuthDirectRouteKey.SignOut]"><i>Sign out</i></a>
+  </div>
+</div>
+
+<div class="content">
+  <div class="content__router-outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>
