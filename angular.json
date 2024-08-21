@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "caffeine-sso": {
+    "caffeine-vienna": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/caffeine-sso",
+            "outputPath": "dist/caffeine-vienna",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -71,10 +71,10 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "caffeine-sso:build:production"
+              "buildTarget": "caffeine-vienna:build:production"
             },
             "development": {
-              "browserTarget": "caffeine-sso:build:development"
+              "buildTarget": "caffeine-vienna:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "caffeine-sso:build"
+            "buildTarget": "caffeine-vienna:build"
           }
         },
         "test": {
