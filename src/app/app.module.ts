@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule, RouterOutlet } from "@angular/router";
 import { AuthModule } from "./features/auth/auth.module";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     RouterOutlet,
     NgbModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
