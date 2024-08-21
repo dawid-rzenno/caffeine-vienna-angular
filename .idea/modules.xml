@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../caffeine-mocha/.idea/caffeine-mocha.iml" filepath="$PROJECT_DIR$/../caffeine-mocha/.idea/caffeine-mocha.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../caffeine-mocha-server/.idea/caffeine-mocha-server.iml" filepath="$PROJECT_DIR$/../caffeine-mocha-server/.idea/caffeine-mocha-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/caffeine-sso.iml" filepath="$PROJECT_DIR$/.idea/caffeine-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/caffeine-vienna-angular.iml" filepath="$PROJECT_DIR$/.idea/caffeine-vienna-angular.iml" />
     </modules>
   </component>
 </project>
